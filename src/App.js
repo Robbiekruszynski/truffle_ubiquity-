@@ -1,16 +1,15 @@
 import './App.css';
-import { Metamask } from './MetaMask.js';
+import Wallet from './components/wallet/Wallet.js';
 
 
 
 function App() {
+
+ 
   return (
     <div className="App">
       <header className="App-header">
-        <button>Connect Wallet</button>
-        <h3>Wallet Adrress: XXXX</h3>
- 
-      
+     < Wallet />
         <p>
          Blockdaemon
         </p>
