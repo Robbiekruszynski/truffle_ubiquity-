@@ -1,5 +1,6 @@
 import './App.css';
-import Wallet from './components/wallet/Wallet.js';
+import Wallet from './components/Wallet/Wallet.js';
+import Box from './components/Box/Box.js';
 
 
 
